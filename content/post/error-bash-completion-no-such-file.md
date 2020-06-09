@@ -11,7 +11,7 @@ Bash completion allows to fill in the rest of the commands or variables that fol
 
 See <a href="https://wiki.archlinux.org/index.php/Bash#Tab_completion" target="_blank">Bash autocompletion</a> for more details about its chock features' versatility. 
 
-In the case of Arch, the installation does not create — unlike on Debian — the folder `bash_completion` under `etc`. And I don't think this may have been an oversight from the Arch team, but perhaps due to safety reasons,  this was something that was never considered in the first place.
+In the case of Arch, the installation does not create — unlike on Debian — the folder `bash_completion` under `etc`. And I don't think this may have been an oversight from the Arch team, but presumably and perhaps due to safety reasons,  this was something that was never considered in the first place.
 
 Other programs have had no issue by correctly including on the script the means to have it install appropriately. But it's my opinion — and anyone is more than welcome to disagree with me here — that many a great number of programs have not chosen to do so or failed altogether in this regard. Hugo for example is one of them. See for example the <a href="https://github.com/gohugoio/hugo/pull/1088" target="_blank"> destination directory</a> when this feature was added. See the commit <a href="https://github.com/gohugoio/hugo/pull/1088/commits/ccdf544f73dda2ff2dd8bf0407a77e21084c59e8">here.</a>
 
