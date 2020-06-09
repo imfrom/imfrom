@@ -3,11 +3,11 @@ title: "Error Bash Completion No Such File or Directory"
 date: 2020-06-09T02:59:45-04:00
 draft: true
 ---
-I wouldn't know where to look —- I certainly can browse the <a href="https://packages.debian.org/buster/bash-completion" target="_blank">repo</a> from Debian reposotiry — or where bash completion is usually installed on Debian-based distributions. It's been a while since I have used these kind of systems. But after all, this is irrelevant. Even as popular as it may,  not everyione uses it.
+I wouldn't know where to look —- I certainly can browse the <a href="https://packages.debian.org/buster/bash-completion" target="_blank">repo</a> from Debian reposotiry — or where bash completion is usually installed on Debian-based distributions. It's been a while since I have used these kind of systems. But after all, this is irrelevant. Even as popular as it may,  not everyone uses it.
 
 A quick glance at the files that comprise this program, one could see that aside from the `usr` folder, bash completion is also installed under `etc` and `bin` accordingly.
 
-Bash completion allows to fill in the rest of the commands or variables that follow fora gitven executable.
+Bash completion allows to fill in the rest of the commands or variables that follow for given executable.
 
 See <a href="https://wiki.archlinux.org/index.php/Bash#Tab_completion" target="_blank">Bash autocompletion</a> for more details about its chock features' versatility. 
 
