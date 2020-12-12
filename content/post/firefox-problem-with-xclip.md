@@ -16,8 +16,8 @@ description = ""
 
 <p>But that post raised more questions than answers.</p>
 
-<p>There was a reference on that thread about seeing a post on unix.stackexchange.com:
-<a href="http://unix.stackexchange.com/questions/164074/pasting-in-thunderbird-turns-line-breaks-into-spaces">http://unix.stackexchange.com/questions/164074/pasting-in-thunderbird-turns-line-breaks-into-spaces</a></p>
+<p>There was a reference on that thread about seeing a post on
+unix.stackexchange.com: <a href="https://unix.stackexchange.com/questions/164074/pasting-in-thunderbird-turns-line-breaks-into-spaces" target="_blank">https://unix.stackexchange.com/questions/164074/pasting-in-thunderbird-turns-line-breaks-into-spaces</a></p>
 
 <p>After reading the link provided, I recall having come across the same post hours earlier when I was trying to find out more about the issue. A Google search with keywords including but not limited to <strong>xclip</strong> or <strong>newlines</strong>, or <strong>gmail</strong> or <strong>firefox</strong> would return as one of the first results, that specific post which appeared on the stackexchange network before any other post and more relevant results would showed up. Perhaps even those that were more important queries on the web were relegated, but I guess that’s an entirely different issue.</p>
 
