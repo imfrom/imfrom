@@ -8,7 +8,7 @@ This could very well qualify among one of the most pesky annoyingly error messag
 
 In the past, by simply installing any of the `xorg-fonts-75dpi` and/or `xorg-fonts-100dpi` packages, would have gotten this issue resolved. 
  
-One could further consult similar posts under the Arch forum that inquired about this problem. See <a href="https://bbs.archlinux.org/viewtopic.php?id=21713" target="_blank"> missing helvetica font</a> or also <a href="https://bbs.archlinux.org/viewtopic.php?id=189463" target="_blank">Fonts: cannot convert string… to type Fontstruct</a>, or even albeit unrelated — since this issue at this other site, was concerned under another program perhaps — on the linuxquestions forum entitled <a href="https://www.linuxquestions.org/questions/linux-software-2/error-message-regarding-fonts-in-grace-943919/" target="_blank"> Error message regarding fonts in grace</a> 
+One could further consult similar posts under the Arch forum that inquired about this problem. See <a href="https://bbs.archlinux.org/viewtopic.php?id=21713" target=_blank>missing helvetica font</a> or also <a href="https://bbs.archlinux.org/viewtopic.php?id=189463" target="_blank">Fonts: cannot convert string… to type Fontstruct</a>, or even albeit unrelated — since this issue at this other site, was concerned under another program perhaps — on the linuxquestions forum entitled <a href="https://www.linuxquestions.org/questions/linux-software-2/error-message-regarding-fonts-in-grace-943919/" target="_blank"> Error message regarding fonts in grace</a> 
 
 But this time around, there must have been some sort of update that most likely has breaking up the way that a non error, and consequentially working without a warning of any kind would come up under the X system. 
 

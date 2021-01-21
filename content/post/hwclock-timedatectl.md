@@ -18,14 +18,9 @@ timedatectl set-timezone
 Alternatively, one may invoke:
 
 ```
-hwclock --set --date 'nn MMM YYYY 00:00'
-hwclock --systohc --localtime
+hwclock --set --date 'mm/dd/yyyy 00:00:00'
+hwclock --hctosys --localtime
 ```
-
-For further resources, Google certainly helps and this article documentation from Red Hat may provide you with more details:
-
-https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/sect-configuring_the_date_and_time-hwclock
-
 
 
 
