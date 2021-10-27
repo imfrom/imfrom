@@ -1,5 +1,5 @@
 ---
-title: "Guake Module Not Found Pbr"
+title: "Guake Module Not Found Pbr — no module named pbr"
 date: 2021-10-27T04:08:20-04:00
 draft: true
 ---
