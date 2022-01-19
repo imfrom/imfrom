@@ -33,7 +33,7 @@ I had decided to almost give up on the issue, but as a last resort there was the
 
 I went ahead and read on https://sbopkg.org/ after going around on an older thread from 2011 https://www.linuxquestions.org/questions/slackware-14/how-can-i-search-for-unofficial-packages-in-slackware-%2Apackages-like-guake-terminal%2A-888155/ that mentioned it.
 
-After the initial setup and further reading through https://docs.slackware.com/howtos:slackware_admin:building_packages_with_sbopkg, the first search directly from the terminal returned a `no match found` which took me back to Google again to see what this was about.
+After the initial setup and further reading through <a href="https://docs.slackware.com/howtos:slackware_admin:building_packages_with_sbopkg" target="_blank"> documentation for sbopkg</a>,  the first search directly from the terminal returned a `no match found` which took me back to Google again to see what this was about.
 
 Therein one of the most relevant links pointed out to https://www.linuxquestions.org/questions/slackware-14/sbopkg-and-installed-sbo-git-packages-not-appears-4175632613/
 
