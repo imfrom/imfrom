@@ -51,7 +51,7 @@ https://superuser.com/questions/662418/how-do-i-get-the-name-of-a-network-printe
 
 which pretty much matches many of the issues that I have encountered with the program.
 
-The only workaround with this pervasive problem of a printer that depends solely on the network, is through some sort of initial setup performed namely through a Windows system that would point it out. So by confirming the correct ip address and port numbers of the printer, would be more than enough to specify it as such on the location of the CUPS for the printer in question. Until then, and just like a user on the Arch Forums said:
+The only workaround with this pervasive problem of a printer that depends solely on the network, is through some sort of initial setup performed namely through a Windows system that would point it out. Unlike Linux with its **C**ommon **U**nix **P**rinting **S**ervices in which by just confirming the correct ip address and port numbers of the printer are under , is more than enough to identify it accordingly.  Until then, and just like a user on the Arch Forums said:
 
 >The problem here is that the criteria ("Network Printer") is something that only makes sense to humans. Computer programs aren't going to have a clear sense of that idea. You might try doing a network sweep for IP addresses that successfully connect on the JetDirect port (tcp/9100). The list is still likely to be incomplete in the case of non-JetDirect printers such as desktop printers shared over SMB. – Bratchley Jun 30 '14 at 18:16
 
@@ -59,4 +59,5 @@ The only workaround with this pervasive problem of a printer that depends solely
 
 <a href="https://unix.stackexchange.com/questions/140009/list-all-network-printers-including-ones-not-installed#comment226003_140009" target="_blank">unix.stackexchange.com/questions/140009/list-all-network-printers-including-ones-not-installed#comment226003_140009</a>
 
+<a href="https://www.uvm.edu/cosmolab/om/brother/html/nug/chapter2.html" target=_blank"> 2 Configuring your printer for a networt</a>
 

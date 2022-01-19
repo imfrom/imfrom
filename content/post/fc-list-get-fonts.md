@@ -27,7 +27,7 @@ But it does not provide any searching mechanism to look up a particular font on 
 
 On the other hand, `fc-list` does list the fonts available on the system...
 
-The only caveat is that if I were to try to get the family name of the glyph in question, `fc-list` does provide it, but I would need to further `grep` it to not get a bunch of results.
+The only caveat is that if I were to try to get the family name of the glyph in question, `fc-list` does provide it, but I would need to further `grep` it in order to not get a bunch of results.
 
 `fc-list` is simply put:
 
@@ -51,4 +51,5 @@ DESCRIPTION
 
 a printing mechanism to list the fonts on the system.
 
-`grep` [ing] the font itself through the program filters out the family name of the font as well - and hether these are otf or ttf.
+`grep` [ing] the font itself through the program, filters out the family name of the font as well - and whether these are otf or ttf.
+
