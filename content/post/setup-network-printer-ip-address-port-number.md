@@ -59,5 +59,5 @@ The only workaround with this pervasive problem of a printer that depends solely
 
 <a href="https://unix.stackexchange.com/questions/140009/list-all-network-printers-including-ones-not-installed#comment226003_140009" target="_blank">unix.stackexchange.com/questions/140009/list-all-network-printers-including-ones-not-installed#comment226003_140009</a>
 
-<a href="https://www.uvm.edu/cosmolab/om/brother/html/nug/chapter2.html" target=_blank"> 2 Configuring your printer for a networt</a>
+<a href="https://www.uvm.edu/cosmolab/om/brother/html/nug/chapter2.html" target="_blank"> 2 Configuring your printer for a networt</a>
 
