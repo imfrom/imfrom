@@ -24,11 +24,11 @@ file:///usr/share/sddm/themes/Breeze/Main.qml:14:1:plugin cannot be loaded for m
 
 This of course served no discernible help at all, as Google quickly confirmed, a search for `bindingsplugin.so` returned unrelated results while recently, as of today, a search on Google for <libcorebindingsplugin.so slackware> pointed out that the solution for the problem would be to `slackpkg install-new`. But for as long as I have updated the system on Slackware, with the kernel and packages, I have always foregone from invoking, even though is technically correct after a system upgrade, such command as `slackpkg install-new`.
 
-By the time I read that suggestion, which was just now as of this writing and  which was posted only a few days ago, I had already found, perhaps not as elegant, a solution to invoke `startx` successfully.
+By the time I had read that suggestion, which I noticed just now, as of this writing that it had been posted only a few days ago, I had already found, perhaps not as elegant, a solution on the system to invoke `startx` successfully.
 
 Somehow while invoking **kwin_wayland** though `startkwayland` I noticed, unlike before, that was returning the error: `/usr/bin/kwin_wayland: error while loading shared libraries: libimobiledevice-glue-1.0.so.0: cannot open shared object file: No such file or directory` which quickly identified the culprit.
 
-Somehow the file for this shared library  was not installed. Perhaps the file was not using the same repo as the repo that was being used during  the system upgrade. 
+For one given reason or another (which I don't know), it seemed that the file for this shared library  was not installed afterwards. Perhaps the file was not using the same repo as the repo that was being used during  the system upgrade. And that is most likely the cause. `imobiledevice-glue` was using another repo, not the one used during the system upgrade.
 
 After installing it with `slackpkg install imobiledevice-glue` kde plasma was successfully loaded with `startx`.
 
