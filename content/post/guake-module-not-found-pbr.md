@@ -8,10 +8,11 @@ As I decided to run slackware current rather than 14.2, as I had done before, th
 
 Among these packages was the drop-down terminal **guake**. Unlike **yakuake**, which is normally configured without a major setback, running 14.2 required at one point to have vte3 installed, as well as pbr.
 
-the latter one however, proved to be a chore.
+The latter one however, proved to be a chore.
 
-The error `error: invalid command 'bdist_wininst'` kept coming up without further info. A quick googling around this problem led me to actually nowhere, since one of the comments mentioned about removing support for **wininst** but this [https://github.com/pypa/setuptools/issues/857#issuecomment-273274212](comment) dated as far back as 2017.  
-Another error that showed up — no matter what I did to circumvent it during the installation of guake — was the most infamous of all. 
+The error `error: invalid command 'bdist_wininst'` kept coming up without further info. A quick googling around this problem led me to actually nowhere, since one of the comments mentioned about removing support for **wininst** but this [https://github.com/pypa/setuptools/issues/857#issuecomment-273274212](comment) dated as far back as 2017.
+
+Another error that showed up — no matter what I did to circumvent it during the installation of guake — was the most infamous of all:
 
 guake `ModuleNotFoundError: No module named 'pbr'`
 
