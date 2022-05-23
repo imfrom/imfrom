@@ -167,7 +167,8 @@ I had also done the same, but to no avail.
 
 the recommendaton for the op was, as in
 this reply [Re: analog audio not working in
-rpi4](https://archlinuxarm.org/forum/viewtopic.php?f=60&o  i it=15470#p670)
+rpi4](https://archlinuxarm.org/forum/viewtopic.php?f=60&t=15470#p67053)
+
 
 
 ```
