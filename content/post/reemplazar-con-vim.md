@@ -10,7 +10,7 @@ description = ""
 
 <p>En el website de programadores de superuser.com, <a href="http://superuser.com/questions/737130/automatically-capitalize-the-first-letter-of-sentence-in-vim" target="_blank">superuser.com/questions/737130/automatically-capitalize-the-first-letter-of-sentence-in-vim</a> se hace esta misma pregunta para lograr el reemplazo automático de minúsculas por mayúsculas al principio de cada oración.</p>
 
-<p>Una de las repuestas <a href="https://imfrom.github.io/post/reemplazo-de-minusculas-por-mayuscula-en-oracion/#script"><sup id="fnref">1</sup></a> hace énfasis de esto mediante la adición de un unas líneas de script o programa de ejecución.</p>
+<p>Una de las repuestas <a href="#script"><sup id="fnref">1</sup></a> hace énfasis de esto mediante la adición de un unas líneas de script o programa de ejecución.</p>
 
 <p>El problema que esto conlleva, y como uno de los usuarios comentó,</p>
 
@@ -53,5 +53,6 @@ description = ""
 
 <p><strong>Footnotes</strong></p>
 
-<p><a href="https://imfrom.github.io/post/reemplazo-de-minusculas-por-mayuscula-en-oracion/#fnref"> ↩︎</a>
-   <a name="script"> </a>Respuesta de usuario de vim para el empleo de un script que reemplace minúscula por mayúscula pero que causa lag en documentos <a href="http://superuser.com/a/737155">http://superuser.com/a/737155</a></p>
+<p><a href="#fnref"> ↩︎ </a>
+   <a name="script"> </a> Respuesta de usuario de vim para el empleo de un script que reemplace minúscula por mayúscula pero que causa lag en documentos <a
+href="http://superuser.com/a/737155" target="_blank"> http://superuser.com/a/737155</a>
