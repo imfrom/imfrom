@@ -263,6 +263,7 @@ audio_pwm_mode=2
 
 Source: https://archlinuxarm.org/wiki/Raspberry_Pi
 
+## Resolved with snd_bcm2835_enable_headphones=1
 
 What worked in my case were a few lines on the configuration file
 that I personally never thought that were going to resolve the sound
