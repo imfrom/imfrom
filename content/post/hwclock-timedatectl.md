@@ -23,4 +23,21 @@ hwclock --hctosys --localtime
 ```
 
 
+Alternatively, if there's any problem with the above, the
+https://wiki.archlinux.org/title/System_time#Troubleshooting
 
+## Troubleshooting
+
+Clock shows a value that is neither UTC nor local time
+
+This might be caused by a number of reasons. For example, if your hardware clock is running on local time, but timedatectl is set to assume it is in UTC, the result would be that your timezone's offset to UTC effectively gets applied twice, resulting in wrong values for your local time and UTC.
+
+To force your clock to the correct time, and to also write the correct UTC to your hardware clock, follow these steps:
+
+* Setup ntpd (enabling it as a service is not necessary).
+
+* Set your time zone correctly.
+
+* Run ntpd -qg to manually synchronize your clock with the network, ignoring large deviations between local UTC and network UTC.
+
+* Run hwclock --systohc to write the current software UTC time to the hardware clock.
